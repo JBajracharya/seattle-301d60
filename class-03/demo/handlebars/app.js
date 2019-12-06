@@ -56,7 +56,7 @@ Neighborhood.prototype.renderWithJquery = function(){
 
 Neighborhood.prototype.renderWithHandlebars = function(){
   const myHtml = myTemplate(this);
-  console.log(myHtml);
+  console.log('myhtml', myHtml);
   $('#neighborhoods').append(myHtml);
 };
 
